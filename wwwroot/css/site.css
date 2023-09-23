@@ -1,0 +1,167 @@
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+
+}
+
+body {
+    background-color: #F5DEB3;
+    margin-bottom: 60px;
+}
+/*----------------------fundo---------------------------*/
+.fundo{
+    background-color: #DEB887;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+/*----------------------sobre---------------------------*/
+.img-sobre {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 5px;
+}
+
+.text-sobre {
+    font-size: medium;
+    margin-right: 5%;
+    margin-top: 5.2%;
+    text-align: justify;
+}
+.sobre {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
+    background-color: #DEB887;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: white;
+}
+/*----------------------menu---------------------------*/
+.btn-login {
+    transition: .5s;
+}
+
+    .btn-login:hover {
+        background-color: #000000;
+        color: white;
+    }
+
+.navigation a {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+    .navigation a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .6s;
+    }
+
+    .navigation a:hover::after {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+/*----------------------link adocao e campanha---------------------------*/
+a{
+    text-align:center;
+}
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .5s;
+    margin-top: 10px;
+}
+
+    .link:hover {
+        color: white;
+        font-size: larger;
+    }
+
+/*----------------------campanha---------------------------*/
+.img-camp {
+    width: 19vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+.campanha {
+    text-align: center;
+    background: #DEB887;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+/*----------------------adocao---------------------------*/
+
+.adocao {
+    margin-top: 3%;
+    background: #DEB887;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    color: white;
+    border: 5px solid white;
+}
+.card-img-top{
+    height: 200px;
+}
+.colunaado{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+div.card {
+    width: 250px;
+    margin-right: 2%;
+    background-color: rgb();
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    color: black;
+  
+  }
+  
+div.card {
+    transition: transform 0.5s;
+    transform:translateX(1) scale(0);
+    margin-bottom: 2%;
+  }
+  
+  div.card:hover {
+   
+    transform:translateX(0px) scale(1.1);
+    
+  }
